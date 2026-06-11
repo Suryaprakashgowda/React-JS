@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 75px;
+    margin-bottom: 10px;
+    background:linear-gradient(to bottom right, rgb(56, 213, 25),rgb(15, 129, 186));
+    /* background-image:linear-gradient(90deg ,rgb(52, 185, 40)); */
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30%;
+    /* border: 3px solid red ; */
+
+}
+.left{
+     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 10%;
+   
+}
