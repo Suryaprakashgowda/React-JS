@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 const Homepage=()=>{
     return (
         <>
+            <Navbar/>
             <div className='hero-section'>
             <h1>Welcome to our site</h1>
             <button>Shop Now</button>
@@ -23,7 +26,7 @@ const Homepage=()=>{
                 <img src="https://m.media-amazon.com/images/I/513YDHsOydL.jpg" alt="" />
                 <img src="https://m.media-amazon.com/images/I/61kFytafhKL._SL1310_.jpg" alt="" />
             </div>
-
+            <Footer/>
         </>
     )
 }
