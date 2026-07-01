@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+.cardContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 10px;
+}
+.userCard{
+    height: 400px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+}

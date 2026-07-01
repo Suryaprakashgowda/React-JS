@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    background-color: yellow;
+    color:red;
+    padding: 10px;
+    width: 100%;
+}
+.left{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+.left img{
+    width: 50px;
+    height: 50px;
+}
+.right{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-link {
+    color: red;
+    text-decoration: none;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+.Signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.Signup-form{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 250px;
+    width: 300px;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+}
+.Signup-form input{
+    padding: 7px;
+    width: 80%;
+    border-radius: 5px;
+    border: none;
+}
+.Signup-form button{
+    padding: 5px;
+    width: 80%;
+    border-radius: 5px;
+    background-color: yellow;
+    color: red;
+    border: none;
+    font-weight: bold;
+}
+.Signup-form button:hover {
+    background-color: white;
+    color: red;
+    transform: scale(1.05);
+}
+.Login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.Login-form{
+    padding: 8px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 200px;
+    width: 300px;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+}
+.Login-form input{
+    padding: 8px;
+    width: 80%;
+    border-radius: 5px;
+    border: none;
+}
+.Login-form button{
+    padding: 5px;
+    width: 80%;
+    border-radius: 5px;
+    background-color: yellow;
+    color: red;
+    border: none;
+    font-weight: bold;
+}
+.Login-form button:hover {
+    background-color: white;
+    color: red;
+    transform: scale(1.05);
+}
