@@ -1,10 +1,13 @@
 import React from 'react'
 import Parent from './Parent'
-const Grandparent = (props) => {
+import {Data} from '../context/Data'
+import {useContext} from 'react'
+const Grandparent = () => {
+  const username = useContext(Data)
   return (
     <>
-    <h1>Grandparent</h1>
-      <Parent a={props.a} />
+    <h1>Grandparent.. {username}</h1>
+      <Parent/>
     </>
 
   )

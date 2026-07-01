@@ -1,9 +1,11 @@
 import React from 'react'
-
-const Child = (props) => {
+import {useContext} from 'react'
+import {Data} from '../context/Data'
+const Child = () => {
+  const username = useContext(Data)
   return (
     <>
-      <h3>Child... {props.a}</h3>
+      <h3>Child... {username}</h3>
     </>
   )
 }
