@@ -1,0 +1,21 @@
+{
+  "users": [
+    {
+      "name": "Surya",
+      "email": "Surya@gmail.com",
+      "phone": "0987654321",
+      "dept": "AIML",
+      "course": "PFS",
+      "id": "J4n4Ff-vLKE"
+    },
+    {
+      "name": "gowda ",
+      "email": "gowda@gmail.com",
+      "phone": "123456789",
+      "dept": "Cse",
+      "course": "PFs",
+      "id": "ChSNXLkBR6I"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

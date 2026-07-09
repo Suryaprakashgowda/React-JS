@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.parentNav{
+    display: flex;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3119cd;
+    color: white;
+}
+.right{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+}
+.left{
+    padding-left: 20px;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+.add-student-form{
+    height: 300px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 20%;
+    margin: 0 auto;
+    /* border: 3px solid black; */
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+}
+.add-student-form input{
+    height: 30px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+.add-student-form button{
+    height: 35px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3119cd;
+    color: white;
+    cursor: pointer;
+}
