@@ -1,0 +1,112 @@
+{
+  "users": [
+    {
+      "user": "Surya",
+      "email": "suryagowda6415@gmail.com",
+      "phone": "93164879863425",
+      "password": "Suryagowda@15",
+      "id": "o-khDC1Gd1Q"
+    }
+  ],
+  "products": [
+    {
+      "product_id": 1,
+      "product_name": "Samsung F23",
+      "product_price": 20000,
+      "product_category": "Electronic",
+      "product_image": "https://lovmobile.com/media/2023/01/_3/650x650/whatsapp-image-2023-01-06-at-43654-am_9b057.jpg",
+      "product_description": "OS: Android 12, upgradable to Android 14, One UI 6. Chipset: Qualcomm Snapdragon 750G 5G. CPU: Octa-core. GPU: Adreno 619.",
+      "product_rating": 4.5,
+      "id": "FMf75Y9YjFI"
+    },
+    {
+      "product_id": 2,
+      "product_name": "Samsung S24",
+      "product_price": 150000,
+      "product_category": "Electronic",
+      "product_image": "https://rukminim2.flixcart.com/image/759/759/xif0q/mobile/r/8/1/-original-imahfz2tenzpsd3p.jpeg?q=90",
+      "product_description": "Galaxy S24 with AI features, Circle to Search, high-resolution camera, powerful processor, and premium display.",
+      "product_rating": 4.9,
+      "id": "PSZTEQk-Vo8"
+    },
+    {
+      "product_id": 3,
+      "product_name": "OPPO Reno 15",
+      "product_price": 45000,
+      "product_category": "Electronic",
+      "product_image": "https://m.media-amazon.com/images/I/71u29EnA+dL._SL1500_.jpg",
+      "product_description": "Premium Aurora design with 50MP AI triple camera, stabilization, zoom, and ultra-wide photography.",
+      "product_rating": 4.7,
+      "id": "_r0z4sK_9sA"
+    },
+    {
+      "product_id": 4,
+      "product_name": "iPhone 17",
+      "product_price": 80000,
+      "product_category": "Electronic",
+      "product_image": "https://m.media-amazon.com/images/I/61zVFiTawKL._SL1500_.jpg",
+      "product_description": "Super Retina XDR display, Ceramic Shield, USB-C connectivity, and powerful performance.",
+      "product_rating": 5,
+      "id": "yliLCvOJXwU"
+    },
+    {
+      "product_id": 5,
+      "product_name": "iPhone 17 Pro",
+      "product_price": 140000,
+      "product_category": "Electronic",
+      "product_image": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-pro-model-unselect-gallery-2-202509_GEO_EMEA?wid=5120&hei=2880&fmt=webp&qlt=90&.v=dU9qRExIQUlQTzVKeDd1V1dtUE1MUWFRQXQ2R0JQTk5udUZxTkR3ZVlpTEJBSVhDREVhQVF4eThVb2E3Y2VibVB1OWIzMk5Pa05pM0VtRDBtTXRCK3dUMngwVnJycmY0WkN2ZnNvOUpFNFVySWdQb3VEUWpYcGVsTHFTOGJoTUlHSUJ3a0VmOGVMVEgzQ0RPMWN2TERB&traceId=1",
+      "product_description": "48MP Pro Fusion camera system with ultra-wide, telephoto, Dolby Vision 4K recording, and next-generation portraits.",
+      "product_rating": 5,
+      "id": "2740tcrKejo"
+    },
+    {
+      "product_id": 6,
+      "product_name": "Amul Milk",
+      "product_price": 40,
+      "product_category": "Dairy",
+      "product_image": "https://shop.amul.com/s/62fa94df8c13af2e242eba16/651060024b7ce589546e9496/01-hero-image_amul-moti-pouch_450ml-1024x1024.png",
+      "product_description": "Amul Moti Long Life Toned Milk with aseptic packaging and a shelf life of up to 90 days.",
+      "product_rating": 4.3,
+      "id": "BbX93Vppfd4"
+    }
+  ],
+  "orders": [
+    {
+      "name": "surya",
+      "phone": "9901506415",
+      "email": "surya@gmail.com",
+      "address": "kolar karnataka",
+      "quantity": 1,
+      "product": {
+        "product_id": 1,
+        "product_name": "Samsung F23",
+        "product_price": 20000,
+        "product_category": "Electronic",
+        "product_image": "https://lovmobile.com/media/2023/01/_3/650x650/whatsapp-image-2023-01-06-at-43654-am_9b057.jpg",
+        "product_description": "OS: Android 12, upgradable to Android 14, One UI 6. Chipset: Qualcomm Snapdragon 750G 5G. CPU: Octa-core. GPU: Adreno 619.",
+        "product_rating": 4.5,
+        "id": "FMf75Y9YjFI"
+      },
+      "id": "CycUtKbe8gA"
+    },
+    {
+      "name": "praksah",
+      "phone": "6557484476",
+      "email": "prakasgowda6415@gmail.com",
+      "address": "bengaluru karntaka",
+      "quantity": 3,
+      "product": {
+        "product_id": 1,
+        "product_name": "Samsung F23",
+        "product_price": 20000,
+        "product_category": "Electronic",
+        "product_image": "https://lovmobile.com/media/2023/01/_3/650x650/whatsapp-image-2023-01-06-at-43654-am_9b057.jpg",
+        "product_description": "OS: Android 12, upgradable to Android 14, One UI 6. Chipset: Qualcomm Snapdragon 750G 5G. CPU: Octa-core. GPU: Adreno 619.",
+        "product_rating": 4.5,
+        "id": "FMf75Y9YjFI"
+      },
+      "id": "QItXMiaafag"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

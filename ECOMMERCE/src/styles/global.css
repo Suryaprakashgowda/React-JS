@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* Center the form */
+.container {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Common styles for Login & Signup */
+.form,
+.form1 {
+    width: 350px;
+    padding: 25px;
+    background-color: #484ee9;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* Heading */
+.form h1,
+.form1 h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Inputs */
+.form input,
+.form1 input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+/* Signup & Login Buttons */
+#signup,
+#login {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#signup:hover,
+#login:hover {
+    background-color: darkgreen;
+}
+
+/* Navigation Buttons */
+#signup-btn,
+#login-btn {
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#signup-btn:hover,
+#login-btn:hover {
+    background-color: #0066cc;
+}
+
+/* Paragraph */
+.form p,
+.form1 p {
+    margin-top: 15px;
+    color: white;
+    font-size: 14px;
+}
+
+/* Links */
+.form a,
+.form1 a {
+    color: yellow;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.form a:hover,
+.form1 a:hover {
+    text-decoration: underline;
+}
+.parent{
+    display: flex;
+    height: 75px;
+    width: 98vw;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    color: white;
+
+}
+.right{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+}
+.nav-link{
+
+    text-decoration:none ;
+    border: none;
+    color: white;
+}
+.container-card{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+.card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 5px 5px 15px gray;
+    border-radius: 20px;
+}
+.btn-nav{
+    background-color: #0066cc;
+    border: none;
+    height: 20px;
+    width: 100px;
+    border-radius: 220px;
+    color: white;
+}
+.order{
+    height: 200px;
+    width: 200px;
+    border: 2px solid rgb(0, 0, 0);
+   border-radius: 10px;
+
+}
+
+/* Product Details */
+
+.container-product {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 25px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.2);
+}
+
+.container-product img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.product-details {
+    flex: 1;
+}
+
+.product-details h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.product-details h3,
+.product-details p {
+    margin: 12px 0;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Quantity */
+
+.quantity {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.quantity button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: #5ab01d;
+    color: white;
+    font-size: 22px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.quantity button:hover {
+    background: #3f8d11;
+}
+
+.quantity h2 {
+    margin: 0;
+}
+
+/* Order Form */
+
+.card-order {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.order {
+    width: 400px;
+    height: 450px;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.2);
+}
+
+.order input,
+.order textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+}
+
+.order textarea {
+    height: 100px;
+    resize: none;
+}
+
+.order input:focus,
+.order textarea:focus {
+    border-color: #5ab01d;
+}
+
+.order button {
+    width: 100%;
+    padding: 12px;
+    background: #5ab01d;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.order button:hover {
+    background: #3f8d11;
+}
